@@ -1,0 +1,90 @@
+.calculator-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.calculator-screen {
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color: #252525;
+    color: #fff;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.operator {
+    background-color: #f0a500;
+    color: white;
+}
+
+.operator:hover {
+    background-color: #e09a00;
+}
+
+.all-clear {
+    background-color: #f0595f;
+    color: white;
+}
+
+.all-clear:hover {
+    background-color: #e04a50;
+}
+
+.equal-sign {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.equal-sign:hover {
+    background-color: #3e8e41;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .calculator-container {
+    background-color: #1e1e1e;
+}
+
+.dark-mode button {
+    background-color: #333;
+    color: white;
+}
+
+#darkModeToggle {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+}
