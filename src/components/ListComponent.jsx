@@ -5,7 +5,6 @@ const ListComponent = ({ items, renderItem}) => {
         return <p>No items to display.</p>
     }
 
-    
     return (
         <ul>
             {items.map((item, index) => (
