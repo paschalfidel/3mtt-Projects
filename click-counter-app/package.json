@@ -1,5 +1,5 @@
 {
-  "name": "omens-blog",
+  "name": "click-counter-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -25,4 +25,3 @@
     "vite": "^6.2.0"
   }
 }
-
